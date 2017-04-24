@@ -1,20 +1,35 @@
-\documentclass{beamer} 
+\documentclass[xcolor=svgnames,compress]{beamer}
 
 % packages 
 \usepackage{fontspec}
-
-% theme
-\usetheme{Singapore}
+\usepackage{graphicx}
+\usepackage{tikz}
 
 % fonts
 \setsansfont{Ubuntu}
 \setmonofont{Ubuntu Mono}
+
+% Outertheme
+\useoutertheme{smoothbars}
+
+% Colors
+\setbeamercolor{structure}{fg=SteelBlue!110!gray}
+\setbeamercolor{normal text}{fg=gray!40!black, bg=gray!5}
+
+% Blocks
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\setbeamercolor*{block title}{fg=gray!40!black, bg=SteelBlue!90}
+\setbeamercolor*{block body}{fg=gray!40!black, bg=SteelBlue!50}
 
 % Remove navigation barc
 \beamertemplatenavigationsymbolsempty
 
 % Include frame number
 \setbeamertemplate{footline}[frame number]
+
+% Headline and Footline
+\addtobeamertemplate{headline}{}{ \rule{\paperwidth}{1pt}}
+\addtobeamertemplate{footline}{\rule{\paperwidth}{1pt}}{}
 
 % Overview at every section
 \AtBeginSection[]
@@ -35,13 +50,15 @@
 \section{This is the first section}
 
 \begin{frame}{This is a frame}
-    Section 1, Frame 1
+   Using the Ubuntu font
 \end{frame}
 
 \section{Another section}
 
-\begin{frame}{And another frame}
-    Section 2, Frame 1
+\begin{frame}{And a frame with a block}
+    \begin{block}{This is the title of a block}
+    This is the body of a block 
+    \end{block}
 \end{frame}
 
 \end{document}
