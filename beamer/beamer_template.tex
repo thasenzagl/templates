@@ -1,20 +1,23 @@
 \documentclass[xcolor=svgnames,compress]{beamer}
 
 % packages 
-\usepackage{fontspec}
 \usepackage{graphicx}
 \usepackage{tikz}
+\usepackage{lmodern}
+
+% Decorations
+\usetikzlibrary{decorations.fractals}
 
 % fonts
-\setsansfont{Ubuntu}
-\setmonofont{Ubuntu Mono}
+\usefonttheme{serif}
 
 % Outertheme
-\useoutertheme{smoothbars}
+\useoutertheme[subsection=false]{miniframes}
 
 % Colors
 \setbeamercolor{structure}{fg=SteelBlue!110!gray}
-\setbeamercolor{normal text}{fg=gray!40!black, bg=gray!5}
+\setbeamercolor{normal text}{fg=gray!40!black}
+\setbeamercolor*{lower separation line head}{bg=SteelBlue!110!gray}
 
 % Blocks
 \setbeamertemplate{blocks}[rounded][shadow=false]
@@ -36,12 +39,21 @@
   \end{frame}
 }
 
-\author{Thomas Hasenzagl}
-\title{Beamer Presentation}
-\date{\today}
-
 \begin{document}
-\maketitle 
+
+\begin{frame}
+	\title{Beamer Presentation}
+    \author{Thomas Hasenzagl}
+\date{
+	\begin{tikzpicture}[decoration=Koch snowflake] 
+		\draw[SteelBlue!110!gray] decorate{ decorate{ decorate{ (0,0) -- (3,0) }}}; 
+	\end{tikzpicture}  
+	\\
+	\vspace{1cm}
+	\today
+    }
+\titlepage    
+\end{frame}
 
 \section{This is the first section}
 
