@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 20:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -954,39 +954,60 @@ s.code.tex
 \tikz@lib@dec@box=\box58
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
-brarydecorations.fractals.code.tex)) (./beamer_template.aux)
+brarydecorations.fractals.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen262
+\captionmargin@=\dimen263
+\captionwidth=\dimen264
+\caption@tempdima=\dimen265
+\caption@indent=\dimen266
+\caption@parindent=\dimen267
+\caption@hangindent=\dimen268
+)
+\c@ContinuedFloat=\count164
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+(./beamer_template.aux)
 \openout1 = `beamer_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Try loading font information for OT1+FiraSans-OsF on input 
-line 44.
+line 49.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fira/OT1FiraSans-OsF.fd
 File: OT1FiraSans-OsF.fd 2015/05/23 (autoinst) Font definitions for OT1/FiraSan
 s-OsF.
 )
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 44.
+(Font)              scaled to size 10.95pt on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1024,16 +1045,16 @@ LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count164
-\scratchdimen=\dimen262
+\scratchcounter=\count165
+\scratchdimen=\dimen269
 \scratchbox=\box59
-\nofMPsegments=\count165
-\nofMParguments=\count166
+\nofMPsegments=\count166
+\nofMParguments=\count167
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count167
-\MPscratchDim=\dimen263
-\MPnumerator=\count168
-\makeMPintoPDFobject=\count169
+\MPscratchCnt=\count168
+\MPscratchDim=\dimen270
+\MPnumerator=\count169
+\makeMPintoPDFobject=\count170
 \everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1052,7 +1073,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 49.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1060,76 +1081,76 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count170
+\c@section@level=\count171
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (./beamer_template.out) (./beamer_template.out)
 \@outlinefile=\write5
 \openout5 = `beamer_template.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 44.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 44.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/FiraSans-OsF/m/n on input line 44.
+(Font)                  OT1/cmss/m/n --> OT1/FiraSans-OsF/m/n on input line 49.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmss/bx/n --> OT1/FiraSans-OsF/bx/n on input line 4
-4.
+9.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/FiraSans-OsF/m/n --> OT1/lmr/m/n on input line 44.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 44.
+(Font)                  OT1/FiraSans-OsF/m/n --> OT1/lmr/m/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/FiraSans-OsF/bx/n on input line 44
+(Font)                  OT1/lmr/bx/n --> OT1/FiraSans-OsF/bx/n on input line 49
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/FiraSans-OsF/bx/n on input line 44
+(Font)                  OT1/lmr/bx/n --> OT1/FiraSans-OsF/bx/n on input line 49
 .
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/FiraSans-OsF/m/n on input line 44.
+(Font)                  OT1/lmss/m/n --> OT1/FiraSans-OsF/m/n on input line 49.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/FiraSans-OsF/m/n on input line 44
+(Font)                  OT1/lmss/bx/n --> OT1/FiraSans-OsF/m/n on input line 49
 .
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/FiraSans-OsF/m/it on input line 44
+(Font)                  OT1/lmr/m/it --> OT1/FiraSans-OsF/m/it on input line 49
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/lmr/bx/it --> OT1/FiraSans-OsF/m/it on input line 4
-4.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 44.
+9.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 44.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 44.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 49.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  OT1/FiraSans-OsF/m/n --> OT1/FiraSans-OsF/bx/n on input
- line 44.
+ line 49.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/FiraSans-OsF/m/it --> OT1/FiraSans-OsF/bx/it on inp
-ut line 44.
+ut line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/FiraSans-OsF/bx/n --> OT1/lmr/bx/n on input line 44
+(Font)                  OT1/FiraSans-OsF/bx/n --> OT1/lmr/bx/n on input line 49
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/FiraSans-OsF/bx/n --> OT1/FiraSans-OsF/bx/n on inpu
-t line 44.
+t line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/FiraSans-OsF/m/n --> OT1/FiraSans-OsF/bx/n on input
- line 44.
+ line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/FiraSans-OsF/m/it --> OT1/FiraSans-OsF/bx/it on inp
-ut line 44.
+ut line 49.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 44.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 49.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1155,26 +1176,28 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 44.
-\c@mv@tabular=\count171
-\c@mv@boldtabular=\count172
+LaTeX Info: Redefining \includegraphics on input line 49.
+\c@mv@tabular=\count172
+\c@mv@boldtabular=\count173
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 (./beamer_template.nav)
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 44.
+(Font)              scaled to size 6.0pt on input line 49.
 
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 60.
+(hyperref)                setting the option has no effect on input line 65.
 
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 60.
+(Font)              scaled to size 14.4pt on input line 65.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 60.
+(Font)              scaled to size 17.28pt on input line 65.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 60.
+(Font)              scaled to size 8.0pt on input line 65.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 4.0pt on input line 60.
+(Font)              scaled to size 4.0pt on input line 65.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -1182,11 +1205,23 @@ LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
 
 ] [3
 
-] (./beamer_template.toc) [4
+] <fox.jpg, id=35, 642.4pt x 427.5975pt>
+File: fox.jpg Graphic file (type jpg)
 
-]
+<use fox.jpg>
+Package pdftex.def Info: fox.jpg used on input line 82.
+(pdftex.def)             Requested size: 192.72148pt x 128.28023pt.
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 85.
+(Font)              scaled to size 10.0pt on input line 82.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 82.
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/it' will be
+(Font)              scaled to size 10.0pt on input line 82.
+ [4
+
+ <./fox.jpg>]
+LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 98.
  [5
 
 ]
@@ -1199,30 +1234,32 @@ LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
 \tf@snm=\write8
 \openout8 = `beamer_template.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
-
-(./beamer_template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+ (./beamer_template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `beamer_template.out' has not changed.
-(rerunfilecheck)             Checksum: 42D3996BD20122EE3F5864E418C18DE0;110.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
+(rerunfilecheck)             Checksum: 8EA766F5AA06B3504ADD0C5571DBBFEF;60.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 21340 strings out of 493014
- 427387 string characters out of 6133351
- 535538 words of memory out of 5000000
- 24396 multiletter control sequences out of 15000+600000
- 18686 words of font info for 23 fonts, out of 8000000 for 9000
+ 22384 strings out of 493014
+ 446233 string characters out of 6133351
+ 545112 words of memory out of 5000000
+ 25432 multiletter control sequences out of 15000+600000
+ 24976 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,66p,395b,1283s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,11n,96p,395b,1283s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fira/fir_mxpi7y.enc}</usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/fira/FiraSans-Book.pfb>
-Output written on beamer_template.pdf (5 pages, 94674 bytes).
+/local/texlive/2016/texmf-dist/fonts/type1/public/fira/FiraSans-BoldItalic.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fira/FiraSans-Book.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/fira/FiraSans-BookItalic.
+pfb>
+Output written on beamer_template.pdf (5 pages, 312028 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -32,6 +32,10 @@
 % Include frame number
 \setbeamertemplate{footline}[frame number]
 
+% Colors, font size, and numbering of image captions
+\usepackage[font={color=MidnightBlue!60!black, small, it}, labelfont={bf}]{caption}
+\setbeamertemplate{caption}[numbered]
+
 % Overview at every section
 \AtBeginSection[]
 {
@@ -40,6 +44,7 @@
     \tableofcontents[currentsection]
   \end{frame}
 }
+
 
 \begin{document}
 {\setbeamercolor{structure}{fg=MidnightBlue, bg=white} 
@@ -59,15 +64,23 @@
 \titlepage    
 \end{frame}}
 
+
 \section{This is the first section} 
+
 
 \begin{frame}{This is a frame}
     And this is some text
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Another section}
+\begin{frame}{Figures and Graphics}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.3]{fox}
+        \caption{A little fox}
+    \end{figure}
+\end{frame}
+
 
 \begin{frame}{And a frame with a block}
     \begin{block}{This is the title of a block}
@@ -83,6 +96,7 @@
     \end{exampleblock}
 
 \end{frame}
+
 
 \end{document}
 
