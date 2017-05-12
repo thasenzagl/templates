@@ -4,25 +4,24 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{lmodern}
+\usepackage[sfdefault]{FiraSans}
 
 % Decorations
 \usetikzlibrary{decorations.fractals}
-
-% fonts
-\usefonttheme{serif}
 
 % Outertheme
 \useoutertheme[subsection=false]{miniframes}
 
 % Colors
-\setbeamercolor{structure}{fg=SteelBlue!110!gray}
-\setbeamercolor{normal text}{fg=gray!40!black}
-\setbeamercolor*{lower separation line head}{bg=SteelBlue!110!gray}
+\setbeamercolor{structure}{fg=black}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor*{palette tertiary}{fg=white,bg=MidnightBlue!60!black} 
+\setbeamercolor*{palette quaternary}{fg=white,bg=MidnightBlue!60!black} 
 
 % Blocks
 \setbeamertemplate{blocks}[rounded][shadow=false]
-\setbeamercolor*{block title}{fg=gray!40!black, bg=SteelBlue!90}
-\setbeamercolor*{block body}{fg=gray!40!black, bg=SteelBlue!50}
+\setbeamercolor*{block title}{fg=white, bg=MidnightBlue!60!black}
+\setbeamercolor*{block body}{fg=black, bg=MidnightBlue!40}
 
 % Remove navigation barc
 \beamertemplatenavigationsymbolsempty
@@ -45,8 +44,8 @@
 	\title{Beamer Presentation}
     \author{Thomas Hasenzagl}
 \date{
-	\begin{tikzpicture}[decoration=Koch snowflake] 
-		\draw[SteelBlue!110!gray] decorate{ decorate{ decorate{ (0,0) -- (3,0) }}}; 
+	\begin{tikzpicture}[decoration=Koch curve type 2] 
+		\draw[MidnightBlue!60!black] decorate{ decorate{ decorate{ (0,0) -- (3,0) }}}; 
 	\end{tikzpicture}  
 	\\
 	\vspace{1cm}
