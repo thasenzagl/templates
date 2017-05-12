@@ -1,4 +1,4 @@
-\documentclass[xcolor=svgnames,compress]{beamer}
+\documentclass[xcolor=svgnames]{beamer}
 
 % packages 
 \usepackage{graphicx}
@@ -9,19 +9,22 @@
 % Decorations
 \usetikzlibrary{decorations.fractals}
 
-% Outertheme
-\useoutertheme[subsection=false]{miniframes}
-
 % Colors
-\setbeamercolor{structure}{fg=black}
-\setbeamercolor{normal text}{fg=black}
-\setbeamercolor*{palette tertiary}{fg=white,bg=MidnightBlue!60!black} 
-\setbeamercolor*{palette quaternary}{fg=white,bg=MidnightBlue!60!black} 
+\setbeamercolor{structure}{fg=white,bg=MidnightBlue!60!black}
+\setbeamercolor{normal text}{fg=MidnightBlue!60!black}
+\setbeamercolor{section in toc}{fg=MidnightBlue!60!black}
+\setbeamercolor{subsection in toc}{fg=MidnightBlue!60!black}
 
 % Blocks
 \setbeamertemplate{blocks}[rounded][shadow=false]
 \setbeamercolor*{block title}{fg=white, bg=MidnightBlue!60!black}
-\setbeamercolor*{block body}{fg=black, bg=MidnightBlue!40}
+\setbeamercolor*{block body}{fg=MidnightBlue!60!black, bg=MidnightBlue!20}
+
+\setbeamercolor*{block title alerted}{fg=white, bg=FireBrick!60!black}
+\setbeamercolor*{block body alerted}{fg=MidnightBlue!60!black, bg=FireBrick!20}
+
+\setbeamercolor*{block title example}{fg=white, bg=ForestGreen!60!black}
+\setbeamercolor*{block body example}{fg=MidnightBlue!60!black, bg=ForestGreen!20}
 
 % Remove navigation barc
 \beamertemplatenavigationsymbolsempty
@@ -33,32 +36,36 @@
 \AtBeginSection[]
 {
   \begin{frame}
-    \frametitle{Overview}
-    \tableofcontents[currentsection, hideallsubsections]
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
   \end{frame}
 }
 
 \begin{document}
+{\setbeamercolor{structure}{fg=MidnightBlue, bg=white} 
+\setbeamercolor{normaltext}{fg=black}
 
 \begin{frame}
-	\title{Beamer Presentation}
+    \title{\LARGE{Beamer Presentation}}
     \author{Thomas Hasenzagl}
 \date{
 	\begin{tikzpicture}[decoration=Koch curve type 2] 
-		\draw[MidnightBlue!60!black] decorate{ decorate{ decorate{ (0,0) -- (3,0) }}}; 
+		\draw[MidnightBlue] decorate{ decorate{ decorate{ (0,0) -- (3,0) }}}; 
 	\end{tikzpicture}  
 	\\
 	\vspace{1cm}
 	\today
     }
 \titlepage    
-\end{frame}
+\end{frame}}
 
-\section{This is the first section}
+\section{This is the first section} 
 
 \begin{frame}{This is a frame}
     And this is some text
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Another section}
 
@@ -66,6 +73,15 @@
     \begin{block}{This is the title of a block}
     This is the body of a block 
     \end{block}
+
+    \begin{alertblock}{This is the title of an alertblock}
+    This is the body of an alert block 
+    \end{alertblock}
+
+    \begin{exampleblock}{This is the title of an example block}
+    This is the body of an example block 
+    \end{exampleblock}
+
 \end{frame}
 
 \end{document}
