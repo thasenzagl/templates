@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1205,31 +1205,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
 (./beamer_template.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
-
-
-Package rerunfilecheck Warning: File `beamer_template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `beamer_template.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  42D3996BD20122EE3F5864E418C18DE0;110.
+Package rerunfilecheck Info: File `beamer_template.out' has not changed.
+(rerunfilecheck)             Checksum: 42D3996BD20122EE3F5864E418C18DE0;110.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
- 21337 strings out of 493014
- 427361 string characters out of 6133351
- 535537 words of memory out of 5000000
- 24393 multiletter control sequences out of 15000+600000
+ 21340 strings out of 493014
+ 427387 string characters out of 6133351
+ 535538 words of memory out of 5000000
+ 24396 multiletter control sequences out of 15000+600000
  18686 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,11n,66p,395b,1283s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fira/fir_mxpi7y.enc}</usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/fira/FiraSans-Book.pfb>
-Output written on beamer_template.pdf (5 pages, 94517 bytes).
+Output written on beamer_template.pdf (5 pages, 94674 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
