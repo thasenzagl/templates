@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 MAY 2017 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 MAY 2017 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1169,7 +1169,7 @@ LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
 
 ] [3
 
-] <fox.jpg, id=35, 642.4pt x 427.5975pt>
+] <fox.jpg, id=41, 642.4pt x 427.5975pt>
 File: fox.jpg Graphic file (type jpg)
 
 <use fox.jpg>
@@ -1183,10 +1183,12 @@ LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/b/it' will be
 (Font)              scaled to size 9.0pt on input line 101.
  [4
 
- <./fox.jpg>]
+ <./fox.jpg>] (./beamer_template.toc) [5
+
+]
 LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 117.
- [5
+(Font)              scaled to size 12.0pt on input line 120.
+ [6
 
 ]
 \tf@nav=\write6
@@ -1198,20 +1200,21 @@ LaTeX Font Info:    Font shape `OT1/FiraSans-OsF/m/n' will be
 \tf@snm=\write8
 \openout8 = `beamer_template.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
- (./beamer_template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+
+(./beamer_template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `beamer_template.out' has not changed.
-(rerunfilecheck)             Checksum: 8EA766F5AA06B3504ADD0C5571DBBFEF;60.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+(rerunfilecheck)             Checksum: F5CD146922CBEAE1D365DFA7FD555315;115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
  ) 
 Here is how much of TeX's memory you used:
- 22473 strings out of 493014
- 448049 string characters out of 6133351
- 545613 words of memory out of 5000000
- 25514 multiletter control sequences out of 15000+600000
+ 22495 strings out of 493014
+ 448531 string characters out of 6133351
+ 545719 words of memory out of 5000000
+ 25531 multiletter control sequences out of 15000+600000
  24676 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,96p,395b,1279s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1220,10 +1223,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/fira/FiraSans-Book.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/fira/FiraSans-BookItalic.
 pfb>
-Output written on beamer_template.pdf (5 pages, 311935 bytes).
+Output written on beamer_template.pdf (6 pages, 312792 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
