@@ -1,39 +1,53 @@
-\documentclass[xcolor=svgnames]{beamer}
+\documentclass[xcolor=svgnames, 10pt]{beamer}
 
 % packages 
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{lmodern}
+\usepackage{booktabs}
+
+% Fonts
 \usepackage[sfdefault]{FiraSans}
+\usefonttheme[onlymath]{serif}
 
 % Decorations
 \usetikzlibrary{decorations.fractals}
 
 % Colors
-\setbeamercolor{structure}{fg=white,bg=MidnightBlue!60!black}
-\setbeamercolor{normal text}{fg=MidnightBlue!60!black}
-\setbeamercolor{section in toc}{fg=MidnightBlue!60!black}
-\setbeamercolor{subsection in toc}{fg=MidnightBlue!60!black}
+\colorlet{myblue}{MidnightBlue!60!black}
+\setbeamercolor{structure}{fg=white,bg=myblue}
+\setbeamercolor{normal text}{fg=myblue}
+\setbeamercolor{section in toc}{fg=myblue}
+\setbeamercolor{subsection in toc}{fg=myblue}
 
 % Blocks
 \setbeamertemplate{blocks}[rounded][shadow=false]
-\setbeamercolor*{block title}{fg=white, bg=MidnightBlue!60!black}
-\setbeamercolor*{block body}{fg=MidnightBlue!60!black, bg=MidnightBlue!20}
+\setbeamercolor*{block title}{fg=white, bg=myblue}
+\setbeamercolor*{block body}{fg=myblue, bg=MidnightBlue!10}
 
 \setbeamercolor*{block title alerted}{fg=white, bg=FireBrick!60!black}
-\setbeamercolor*{block body alerted}{fg=FireBrick!60!black, bg=FireBrick!20}
+\setbeamercolor*{block body alerted}{fg=FireBrick!60!black, bg=FireBrick!10}
 
 \setbeamercolor*{block title example}{fg=white, bg=ForestGreen!60!black}
-\setbeamercolor*{block body example}{fg=ForestGreen!60!black, bg=ForestGreen!20}
+\setbeamercolor*{block body example}{fg=ForestGreen!60!black, bg=ForestGreen!10}
 
-% Remove navigation barc
+% Itemize Item
+\setbeamercolor{itemize item}{fg=myblue, bg=white}
+\setbeamercolor{itemize subitem}{fg=myblue, bg=white}
+\setbeamercolor{itemize subsubitem}{fg=myblue, bg=white}
+
+\setbeamertemplate{itemize item}{\Large \raise-1pt \hbox{\textbullet}} 
+\setbeamertemplate{itemize subitem}{\large \raise-1pt \hbox{\textbullet}} 
+\setbeamertemplate{itemize subsubitem}{\small \raise-1pt \hbox{\textbullet}} 
+
+% Remove navigation bar
 \beamertemplatenavigationsymbolsempty
 
 % Include frame number
 \setbeamertemplate{footline}[frame number]
 
 % Colors, font size, and numbering of image captions
-\usepackage[font={color=MidnightBlue!60!black, small, it}, labelfont={bf}]{caption}
+\usepackage[font={color=myblue, small, it}, labelfont={bf}]{caption}
 \setbeamertemplate{caption}[numbered]
 
 % Overview at every section
@@ -45,13 +59,18 @@
   \end{frame}
 }
 
+% Macros
+% Statistics
+\newcommand\pN{\mathcal{N}} % Normal distribution
+\newcommand\iidN{\overset{iid}{\sim}\mathcal{N}} % iid Normal
+\newcommand\E{\mathbb{E}} % Expectations Operator
 
 \begin{document}
 {\setbeamercolor{structure}{fg=MidnightBlue, bg=white} 
 \setbeamercolor{normaltext}{fg=black}
 
 \begin{frame}
-    \title{\LARGE{Beamer Presentation}}
+    \title{\LARGE{My Beamer Template}}
     \author{Thomas Hasenzagl}
 \date{
 	\begin{tikzpicture}[decoration=Koch curve type 2] 
