@@ -6,6 +6,8 @@
 \usepackage{lmodern}
 \usepackage{booktabs}
 \usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{natbib}
 
 % Fonts
 \usepackage[sfdefault]{FiraSans}
@@ -17,9 +19,9 @@
 % Colors
 \colorlet{myblue}{MidnightBlue!60!black}
 \setbeamercolor{structure}{fg=white,bg=myblue}
-\setbeamercolor{normal text}{fg=myblue}
-\setbeamercolor{section in toc}{fg=myblue}
-\setbeamercolor{subsection in toc}{fg=myblue}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black}
 
 % Blocks
 \setbeamertemplate{blocks}[rounded][shadow=false]
@@ -66,6 +68,10 @@
 \newcommand\iidN{\overset{iid}{\sim}\mathcal{N}} % iid Normal
 \newcommand\E{\mathbb{E}} % Expectations Operator
 
+% Ticks and Crosses
+\newcommand{\tickYes}{\checkmark}
+\newcommand{\tickNo}{\hspace{1pt}\ding{55}}
+
 \begin{document}
 {\setbeamercolor{structure}{fg=MidnightBlue, bg=white} 
 \setbeamercolor{normaltext}{fg=black}
@@ -74,9 +80,6 @@
     \title{\LARGE{My Beamer Template}}
     \author{Thomas Hasenzagl}
 \date{
-	\begin{tikzpicture}[decoration=Koch curve type 2] 
-		\draw[MidnightBlue] decorate{ decorate{ decorate{ (0,0) -- (3,0) }}}; 
-	\end{tikzpicture}  
 	\\
 	\vspace{1cm}
 	\today
