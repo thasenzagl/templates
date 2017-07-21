@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Smith(1827)]{smith1827inquiry}
+Adam Smith.
+\newblock \emph{An Inquiry into the Nature and Causes of the Wealth of
+  Nations}.
+\newblock Number 25202. Printed at the University Press for T. Nelson and P.
+  Brown, 1827.
+
+\end{thebibliography}
