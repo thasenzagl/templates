@@ -22,6 +22,11 @@
 \geometry{a4paper, top=25mm, left=30mm, right=25mm, bottom=30mm,headsep=10mm, footskip=12mm}
 
 % Macros
+% Theorem, Lemmam Corollary numbering
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
 % Statistics
 \newcommand\pN{\mathcal{N}} % Normal distribution
 \newcommand\iidN{\overset{iid}{\sim}\mathcal{N}} % iid Normal
