@@ -11,6 +11,7 @@
 \usepackage{amsfonts}
 \usepackage{pifont}
 \usepackage{geometry}
+\usepackage{authblk}
 
 % Fonts
 \usepackage{mathpazo} % Palatino font for math and text
@@ -33,8 +34,16 @@
 \newcommand\E{\mathbb{E}} % Expectations Operator
 
 % Title page
-\title{Latex Article Template}
-\author{Author A\thanks{Department of Economics, University 1, ...}, Author B\thanks{Department of Statistics, University 2, ...}, Author C \thanks{Department of Mathematics, University 3, ...}}
+\title{\LARGE Latex Article Template}
+\date{}
+
+\author[1]{Author A}
+\author[2]{Author A}
+\author[3]{Author A}
+
+\affil[1]{\it\small Department of Economics, University 1, ...}
+\affil[2]{\it\small Department of Statistics, University 2, ...}
+\affil[3]{\it\small Department of Mathematics, University 3, ...}
 
 \begin{document}
 
