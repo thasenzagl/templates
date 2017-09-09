@@ -1,0 +1,53 @@
+\documentclass[12 pt,a4paper]{article}
+
+% packages 
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{natbib}
+\usepackage{amsfonts}
+\usepackage{pifont}
+\usepackage{geometry}
+\usepackage{authblk}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+     colorlinks = true,
+     citecolor = blue,
+     linkcolor = blue  
+ } 
+
+% Fonts
+\usepackage{mathpazo} % Palatino font for math and text
+
+% Start at section 2
+\setcounter{section}{1}
+
+% Whitespace  
+\geometry{a4paper, top=25mm, left=30mm, right=25mm, bottom=30mm,headsep=10mm, footskip=12mm}
+
+% Macros
+% Theorem, Lemmam Corollary numbering
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+% Statistics
+\newcommand\pN{\mathcal{N}} % Normal distribution
+\newcommand\iidN{\overset{iid}{\sim}\mathcal{N}} % iid Normal
+\newcommand\E{\mathbb{E}} % Expectations Operator
+
+% Title
+\title{This is a note}
+\author{Thomas Hasenzagl}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+Add your notes here. 
+\end{document}
