@@ -13,14 +13,13 @@
 \usepackage[sfdefault]{FiraSans}
 \usefonttheme[onlymath]{serif}
 
-% Decorations
-\usetikzlibrary{decorations.fractals}
+% Add line below frametitle
+\setbeamertemplate{frametitle}{\color{myblue}\insertframetitle\par\vskip-6pt\hrulefill}
 
 % Colors
 \colorlet{myblue}{MidnightBlue!60!black}
-\setbeamercolor{structure}{fg=white,bg=myblue}
+\setbeamercolor{structure}{fg=myblue}
 \setbeamercolor{normal text}{fg=black}
-\setbeamercolor{section in toc}{fg=black}
 \setbeamercolor{subsection in toc}{fg=black}
 
 % Blocks
@@ -50,15 +49,18 @@
 \setbeamertemplate{footline}[frame number]
 
 % Colors, font size, and numbering of image captions
-\usepackage[font={color=myblue, small, it}, labelfont={bf}]{caption}
+\usepackage[font={color=myblue, footnotesize}, labelfont={footnotesize}]{caption}
 \setbeamertemplate{caption}[numbered]
 
 % Overview at every section
 \AtBeginSection[]
 {
   \begin{frame}
-    \frametitle{Table of Contents}
-    \tableofcontents[currentsection]
+    \vfill 
+    \centering
+    {\color{myblue} \large \insertsectionhead}
+    \vfill 
+ 
   \end{frame}
 }
 
