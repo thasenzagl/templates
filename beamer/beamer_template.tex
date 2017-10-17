@@ -8,13 +8,14 @@
 \usepackage{multirow}
 \usepackage{tabularx}
 \usepackage{natbib}
+\usepackage{tcolorbox}
 
 % Fonts
 \usepackage[sfdefault]{FiraSans}
 \usefonttheme[onlymath]{serif}
 
 % Add line below frametitle
-\setbeamertemplate{frametitle}{\color{myblue}\insertframetitle\par\vskip-6pt\hrulefill}
+\setbeamertemplate{frametitle}{\color{myblue}\insertframetitle\par\vskip-6pt\noindent\rule{11.7cm}{0.4pt}}
 
 % Colors
 \colorlet{myblue}{MidnightBlue!60!black}
@@ -22,17 +23,16 @@
 \setbeamercolor{normal text}{fg=black}
 \setbeamercolor{subsection in toc}{fg=black}
 
-% Blocks
-\setbeamertemplate{blocks}[rounded][shadow=false]
-\setbeamercolor*{block title}{fg=white, bg=myblue}
-\setbeamercolor*{block body}{fg=myblue, bg=MidnightBlue!10}
-
-\setbeamercolor*{block title alerted}{fg=white, bg=FireBrick!60!black}
-\setbeamercolor*{block body alerted}{fg=FireBrick!60!black, bg=FireBrick!10}
-
-\setbeamercolor*{block title example}{fg=white, bg=ForestGreen!60!black}
-\setbeamercolor*{block body example}{fg=ForestGreen!60!black, bg=ForestGreen!10}
-
+% Set up the `tcolorboxes'
+\tcbset{
+    noparskip,
+    colback=gray!10, 
+    colframe=gray!40, 
+    coltext=myblue,
+    coltitle=myblue, 
+    fonttitle=\large
+    }
+    
 % Itemize Item
 \setbeamercolor{itemize item}{fg=myblue, bg=white}
 \setbeamercolor{itemize subitem}{fg=myblue, bg=white}
@@ -49,7 +49,7 @@
 \setbeamertemplate{footline}[frame number]
 
 % Colors, font size, and numbering of image captions
-\usepackage[font={color=myblue, footnotesize}, labelfont={footnotesize}]{caption}
+\usepackage[font={color=black, footnotesize}, labelfont={footnotesize}]{caption}
 \setbeamertemplate{caption}[numbered]
 
 % Overview at every section
@@ -111,17 +111,10 @@
 
 
 \begin{frame}{And a frame with a block}
-    \begin{block}{This is the title of a block}
+
+    \begin{tcolorbox}[title=This is the title of a block]
     This is the body of a block 
-    \end{block}
-
-    \begin{alertblock}{This is the title of an alertblock}
-    This is the body of an alert block 
-    \end{alertblock}
-
-    \begin{exampleblock}{This is the title of an example block}
-    This is the body of an example block 
-    \end{exampleblock}
+    \end{tcolorbox}
 
 \end{frame}
 
