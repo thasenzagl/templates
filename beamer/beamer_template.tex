@@ -15,19 +15,17 @@
 \usepackage[utf8]{inputenc}
 \usepackage{fontspec}
 \setsansfont{Adobe Caslon Pro}
-\newfontfamily\titlefont[Scale=0.95]{Gill Sans SemiBold}
-\newfontfamily\titlefontsmall[Scale=0.85]{Gill Sans SemiBold}
-
+\newfontfamily\titlefont{Gill Sans SemiBold}
 \usefonttheme[onlymath]{serif}
 
-% Add line below frametitle
-\setbeamerfont{frametitle}{family=\titlefont, size=\LARGE}
-\setbeamertemplate{frametitle}{\color{myblue}\insertframetitle\par\vskip-6pt\noindent\rule{15cm}{0.6pt}}
+\setbeamertemplate{frametitle}{\insertframetitle \vskip+3pt \usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle \vskip-1pt \noindent \rule{15cm}{0.6pt}}
+\setbeamerfont{frametitle}{family = \titlefont, size=\LARGE}
+\setbeamerfont{framesubtitle}{family = \titlefont, size=\normalsize}
+\setbeamercolor{frametitle}{fg=myblue}
+\setbeamercolor{framesubtitle}{fg=black}
 
 % Colors
 \colorlet{myblue}{MidnightBlue!60!black!82}
-\setbeamercolor{structure}{fg=myblue}
-\setbeamercolor{normal text}{fg=black}
 
 % Set up the `tcolorboxes'
 \tcbset{
@@ -61,7 +59,7 @@
   \begin{frame}
     \vfill 
     \centering
-    {\color{myblue} \LARGE \titlefont \insertsectionhead}
+    {\color{myblue} \huge \titlefont \insertsectionhead}
     \vfill 
  
   \end{frame}
@@ -94,7 +92,7 @@
 \section{This is the first section} 
 
 
-\begin{frame}{This is a frame}
+\begin{frame}{This is a frame title}{This is a subtitle}
     And this is some text
 \end{frame}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  17 MAY 2018 16:00
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  17 MAY 2018 19:31
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1302,163 +1302,138 @@ LaTeX Info: Redefining \sffamily on input line 17.
 . fontspec info: "defining-font"
 . 
 . Font family 'GillSansSemiBold(0)' created for font 'Gill Sans SemiBold' with
-. options [Scale=0.95].
+. options [].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
-. - 'normal' (m/n) with NFSS spec.: <->s*[0.95]"Gill Sans SemiBold/AAT"
+. - 'normal' (m/n) with NFSS spec.: <->"Gill Sans SemiBold/AAT"
 . - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->s*[0.95]"Gill Sans SemiBold/B/AAT"
+. - 'bold' (bx/n) with NFSS spec.: <->"Gill Sans SemiBold/B/AAT"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->s*[0.95]"Gill Sans SemiBold/I/AAT"
+. - 'italic' (m/it) with NFSS spec.: <->"Gill Sans SemiBold/I/AAT"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.: <->s*[0.95]"Gill Sans
-. SemiBold/BI/AAT"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font "Gill Sans SemiBold" does not contain any OpenType `Script'
-. information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'GillSansSemiBold(1)' created for font 'Gill Sans SemiBold' with
-. options [Scale=0.85].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->s*[0.85]"Gill Sans SemiBold/AAT"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.: <->s*[0.85]"Gill Sans SemiBold/B/AAT"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-. - 'italic' (m/it) with NFSS spec.: <->s*[0.85]"Gill Sans SemiBold/I/AAT"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.: <->s*[0.85]"Gill Sans
-. SemiBold/BI/AAT"
+. - 'bold italic' (bx/it) with NFSS spec.: <->"Gill Sans SemiBold/BI/AAT"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 80.
+(hyperref)                removing `\<let>-command' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 80.
+(hyperref)                removing `\\' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 80.
+(hyperref)                removing `\@centercr' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@rightskip' on input line 80.
+(hyperref)                removing `\@rightskip' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 80.
+(hyperref)                removing `\@flushglue' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 80.
+(hyperref)                removing `\rightskip' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@rightskip' on input line 80.
+(hyperref)                removing `\@rightskip' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 80.
+(hyperref)                removing `\leftskip' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 80.
+(hyperref)                removing `\z@skip' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 80.
+(hyperref)                removing `\parindent' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 80.
+(hyperref)                removing `\z@' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 80.
+(hyperref)                removing `\\' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 83.
+(hyperref)                removing `\<let>-command' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 83.
+(hyperref)                removing `\\' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 83.
+(hyperref)                removing `\@centercr' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@rightskip' on input line 83.
+(hyperref)                removing `\@rightskip' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 83.
+(hyperref)                removing `\@flushglue' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 83.
+(hyperref)                removing `\rightskip' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@rightskip' on input line 83.
+(hyperref)                removing `\@rightskip' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 83.
+(hyperref)                removing `\leftskip' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 83.
+(hyperref)                removing `\z@skip' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 83.
+(hyperref)                removing `\parindent' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 83.
+(hyperref)                removing `\z@' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 83.
+(hyperref)                removing `\color' on input line 81.
 
 (./beamer_template.aux)
 \openout1 = `beamer_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1496,7 +1471,7 @@ LaTeX Font Info:    ... okay on input line 83.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box84
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 81.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1506,9 +1481,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 (./beamer_template.out) (./beamer_template.out)
 \@outlinefile=\write7
@@ -1538,18 +1513,12 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator-theorem-dic
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./beamer_template.nav)
-LaTeX Font Info:    Font shape `TU/GillSansSemiBold(0)/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 92.
- [1
+) (./beamer_template.nav) [1
+
+] [2
 
 ]
-LaTeX Font Info:    Font shape `TU/GillSansSemiBold(0)/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 94.
- [2
-
-]
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 99--99
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 97--97
 [][][][]  
  []
 
@@ -1559,7 +1528,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 99--99
 File: fox.jpg Graphic file (type bmp)
 <fox.jpg>
 
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 107--107
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 105--105
 [][][][]  
  []
 
@@ -1568,10 +1537,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 107--107
 ] [5
 
 ]
-LaTeX Font Info:    Font shape `TU/GillSansSemiBold(0)/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 119.
-
-Overfull \hbox (28.45274pt too wide) in paragraph at lines 119--119
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 117--117
 [][][][]  
  []
 
@@ -1587,20 +1553,20 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 119--119
 \tf@snm=\write10
 \openout10 = `beamer_template.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
  (./beamer_template.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `beamer_template.out' has not changed.
 (rerunfilecheck)             Checksum: 6A3BF7E0DD4498913F4C3FAA52B66EDC.
  ) 
 Here is how much of TeX's memory you used:
- 35001 strings out of 492970
- 716825 string characters out of 6133938
- 796743 words of memory out of 5000000
- 38474 multiletter control sequences out of 15000+600000
- 533602 words of font info for 49 fonts, out of 8000000 for 9000
+ 34994 strings out of 492970
+ 716574 string characters out of 6133938
+ 796513 words of memory out of 5000000
+ 38466 multiletter control sequences out of 15000+600000
+ 533610 words of font info for 50 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  56i,11n,75p,10428b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 
