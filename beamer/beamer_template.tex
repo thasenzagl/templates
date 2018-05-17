@@ -11,26 +11,33 @@
 \usepackage{tcolorbox}
 
 % Fonts
-\usepackage[sfdefault]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\setsansfont{Adobe Caslon Pro}
+\newfontfamily\titlefont[Scale=0.95]{Gill Sans SemiBold}
+\newfontfamily\titlefontsmall[Scale=0.85]{Gill Sans SemiBold}
+
 \usefonttheme[onlymath]{serif}
 
 % Add line below frametitle
-\setbeamertemplate{frametitle}{\color{myblue}\insertframetitle\par\vskip-6pt\noindent\rule{15cm}{0.4pt}}
+\setbeamerfont{frametitle}{family=\titlefont, size=\LARGE}
+\setbeamertemplate{frametitle}{\color{myblue}\insertframetitle\par\vskip-6pt\noindent\rule{15cm}{0.6pt}}
 
 % Colors
-\colorlet{myblue}{MidnightBlue!60!black}
+\colorlet{myblue}{MidnightBlue!60!black!82}
 \setbeamercolor{structure}{fg=myblue}
 \setbeamercolor{normal text}{fg=black}
-\setbeamercolor{subsection in toc}{fg=black}
 
 % Set up the `tcolorboxes'
 \tcbset{
     noparskip,
     colback=gray!10, 
     colframe=gray!40, 
-    coltext=myblue,
+    coltext=black,
     coltitle=myblue, 
-    fonttitle=\large
+    family=\titlefont,
+    fonttitle=\titlefont\Large
     }
     
 % Itemize Item
@@ -48,47 +55,41 @@
 % Include frame number
 \setbeamertemplate{footline}[frame number]
 
-% Colors, font size, and numbering of image captions
-\usepackage[font={color=black, footnotesize}, labelfont={footnotesize}]{caption}
-\setbeamertemplate{caption}[numbered]
-
-% Overview at every section
+% At the beginning of every section
 \AtBeginSection[]
 {
   \begin{frame}
     \vfill 
     \centering
-    {\color{myblue} \large \insertsectionhead}
+    {\color{myblue} \LARGE \titlefont \insertsectionhead}
     \vfill 
  
   \end{frame}
 }
 
 % Macros
+
 % Statistics
 \newcommand\pN{\mathcal{N}} % Normal distribution
 \newcommand\iidN{\overset{iid}{\sim}\mathcal{N}} % iid Normal
 \newcommand\E{\mathbb{E}} % Expectations Operator
 
-% Ticks and Crosses
-\newcommand{\tickYes}{\checkmark}
-\newcommand{\tickNo}{\hspace{1pt}\ding{55}}
+% Title Page
+\title{\raggedright \color{myblue} \titlefont My Beamer Template}
+\date{\raggedright\vfill \small A Cool Conference\\[4pt] May 17, 2018}	
+\author[shortname]{\raggedright \bf Thomas Hasenzagl \\[4pt] \normalfont \small Now-Casting Economics}
 
+% Body of the presentation
 \begin{document}
-{\setbeamercolor{structure}{fg=MidnightBlue, bg=white} 
-\setbeamercolor{normaltext}{fg=black}
 
-\begin{frame}
-    \title{\LARGE{My Beamer Template}}
-    \author{Thomas Hasenzagl}
-\date{
-	\\
-	\vspace{1cm}
-	\today
-    }
-\titlepage    
-\end{frame}}
+\begin{frame}[noframenumbering, plain]
+    \centerline{\rule{1.1\textwidth}{0.6pt}}
 
+    \maketitle
+
+    \centerline{\rule{1.1\textwidth}{0.6pt}}
+
+\end{frame}    
 
 \section{This is the first section} 
 
@@ -102,7 +103,6 @@
     \begin{figure}
         \centering
         \includegraphics[scale=0.3]{fox}
-        \caption{A little fox}
     \end{figure}
 \end{frame}
 
