@@ -18,8 +18,9 @@
 \newfontfamily\titlefont{Gill Sans SemiBold}
 \usefonttheme[onlymath]{serif}
 
-\setbeamertemplate{frametitle}{\insertframetitle \vskip+3pt \usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle \vskip-1pt \noindent \rule{15cm}{0.6pt}}
-\setbeamerfont{frametitle}{family = \titlefont, size=\LARGE}
+% Template Setup
+\setbeamertemplate{frametitle}{\vskip+3pt \insertframetitle \vskip+3pt \usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle \vskip-1pt \noindent \centerline{\rule{\textwidth}{0.4pt}}}
+\setbeamerfont{frametitle}{family = \titlefont, size=\Large}
 \setbeamerfont{framesubtitle}{family = \titlefont, size=\normalsize}
 \setbeamercolor{frametitle}{fg=myblue}
 \setbeamercolor{framesubtitle}{fg=black}
@@ -30,12 +31,13 @@
 % Set up the `tcolorboxes'
 \tcbset{
     noparskip,
-    colback=gray!10, 
-    colframe=gray!40, 
+    colback=Silver!8, 
+    colframe=myblue, 
+    boxrule=0.3pt,
     coltext=black,
-    coltitle=myblue, 
+    coltitle=white, 
     family=\titlefont,
-    fonttitle=\titlefont\Large
+    fonttitle=\titlefont\large
     }
     
 % Itemize Item
@@ -73,20 +75,29 @@
 \newcommand\E{\mathbb{E}} % Expectations Operator
 
 % Title Page
-\title{\raggedright \color{myblue} \titlefont My Beamer Template}
-\date{\raggedright\vfill \small A Cool Conference\\[4pt] May 17, 2018}	
-\author[shortname]{\raggedright \bf Thomas Hasenzagl \\[4pt] \normalfont \small Now-Casting Economics}
+\title{ \color{myblue} \titlefont \LARGE My Beamer Template}
+\date{\vfill \color{myblue} \titlefont A cool conference \\[4pt] June 1, 2018}	
 
+\author[shortname]{
+                   Author 1\inst{1},
+                   Author 2\inst{2}
+                }  
+
+\institute[shortinst]{
+                      \inst{1} University 1 \\ 
+                      \inst{2} University 2 
+                     }
+ 
 % Body of the presentation
 \begin{document}
 
 \begin{frame}[noframenumbering, plain]
-    \centerline{\rule{1.1\textwidth}{0.6pt}}
-
+	\vskip+5.5pt
+    \centerline{\rule{1.1\textwidth}{0.4pt}}
+	
     \maketitle
 
-    \centerline{\rule{1.1\textwidth}{0.6pt}}
-
+    \centerline{\rule{1.1\textwidth}{0.4pt}}
 \end{frame}    
 
 \section{This is the first section} 
