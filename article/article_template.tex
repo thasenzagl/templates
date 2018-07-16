@@ -1,4 +1,4 @@
-\documentclass[12 pt,a4paper]{article}
+\documentclass[11 pt,a4paper]{article}
 
 % packages 
 \usepackage{graphicx}
@@ -23,6 +23,7 @@
 
 % Fonts
 \usepackage{mathpazo} % Palatino font for math and text
+\linespread{1.05} % Palatino needs more space between lines
 
 % Start at section 2
 \setcounter{section}{1}
@@ -60,10 +61,12 @@
 \thispagestyle{empty}
 
 \begin{abstract}
-Insert an awesome abstract here!    
+Adam Smith was a Scottish economist and philosopher and an important figure during the Scottish Enlightenment era. Smith is best known for his book: An Inquiry into the Nature and Causes of the Wealth of Nations. This article cites a passage from that book.
 \end{abstract}
+\par\noindent\rule{\textwidth}{0.4pt} % Line after abstract
+\vspace*{-1.7cm} % control whitespace after line
 
-\clearpage
+\section*{} % Do not show the title for the introduction 
 
 This article cites a passage from \citet{smith1827inquiry}.
  
