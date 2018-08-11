@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  16 JUL 2018 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  11 AUG 2018 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -670,12 +670,12 @@ ABD: EveryShipout initializing macros
 * \topmargin=-41.59085pt
 * \headheight=12.0pt
 * \headsep=28.45274pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=34.1433pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -717,16 +717,16 @@ Package rerunfilecheck Info: File `notes.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 16043 strings out of 492649
- 301812 string characters out of 6129622
- 370092 words of memory out of 5000000
- 19658 multiletter control sequences out of 15000+600000
- 7936 words of font info for 23 fonts, out of 8000000 for 9000
+ 16042 strings out of 492649
+ 301786 string characters out of 6129622
+ 370071 words of memory out of 5000000
+ 19657 multiletter control sequences out of 15000+600000
+ 7636 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,5n,54p,406b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on notes.pdf (1 page, 16593 bytes).
+Output written on notes.pdf (1 page, 16317 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
