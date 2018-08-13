@@ -1,6 +1,7 @@
 \documentclass[10 pt,a4paper]{article}
 
 % packages 
+\usepackage{amsthm} % Theorem Environment 
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{lmodern}
@@ -8,10 +9,12 @@
 \usepackage{multirow}
 \usepackage{tabularx}
 \usepackage{natbib}
-\usepackage{amsfonts}
 \usepackage{pifont}
 \usepackage{geometry}
 \usepackage{authblk}
+\usepackage{amsmath}
+\usepackage[title]{appendix} % Add ``Appendix'' before section titles
+\usepackage{titlesec} % to change font size of section titles
 
 % Hyperlinks
 \usepackage{hyperref}
@@ -25,22 +28,30 @@
 \usepackage{mathpazo} % Palatino font for math and text
 \linespread{1.05} % Palatino needs more space between lines
 
-% Start at section 2
-\setcounter{section}{1}
-
 % Whitespace  
 \geometry{a4paper, top=25mm, left=30mm, right=25mm, bottom=30mm,headsep=10mm, footskip=12mm}
 
+% Font size of section titles
+\titleformat*{\section}{\large\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+
 % Macros
-% Theorem, Lemma Corollary numbering
+% Theorem, Lemma, Corollary, Definition
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
 \newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}{Definition}
+
+% Economics
+\newtheorem*{household}{Household Problem}
+\newtheorem*{firm}{Firm Problem}
 
 % Statistics
 \newcommand\pN{\mathcal{N}} % Normal distribution
 \newcommand\iidN{\overset{iid}{\sim}\mathcal{N}} % iid Normal
 \newcommand\E{\mathbb{E}} % Expectations Operator
+
+
 
 % Title page
 \title{\LARGE Latex Article Template}
