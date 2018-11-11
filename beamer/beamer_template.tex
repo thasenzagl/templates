@@ -12,6 +12,7 @@
 
 % Fonts
 \usepackage{mathpazo}
+\usepackage{newtxtext,newtxmath}
 
 % Template Setup
 \setbeamertemplate{frametitle}{\vskip+3pt \insertframetitle \vskip+3pt \usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle \vskip-1pt \noindent \centerline{\rule{\textwidth}{0.4pt}}}
@@ -22,6 +23,11 @@
 
 % Colors
 \colorlet{myblue}{MidnightBlue!60!black!82}
+\colorlet{myred}{Red!60!black!82}
+
+% tikz 
+\usepackage{tikz}
+\usetikzlibrary{spy,calc,arrows,decorations.pathreplacing}
 
 % Set up the `tcolorboxes'
 \tcbset{
