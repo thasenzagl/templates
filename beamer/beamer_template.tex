@@ -11,17 +11,12 @@
 \usepackage{tcolorbox}
 
 % Fonts
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{fontspec}
-\setsansfont{Adobe Caslon Pro}
-\newfontfamily\titlefont{Gill Sans SemiBold}
-\usefonttheme[onlymath]{serif}
+\usepackage{mathpazo}
 
 % Template Setup
 \setbeamertemplate{frametitle}{\vskip+3pt \insertframetitle \vskip+3pt \usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle \vskip-1pt \noindent \centerline{\rule{\textwidth}{0.4pt}}}
-\setbeamerfont{frametitle}{family = \titlefont, size=\Large}
-\setbeamerfont{framesubtitle}{family = \titlefont, size=\normalsize}
+\setbeamerfont{frametitle}{series=\bfseries, size=\Large}
+\setbeamerfont{framesubtitle}{series=\bfseries, size=\normalsize}
 \setbeamercolor{frametitle}{fg=myblue}
 \setbeamercolor{framesubtitle}{fg=black}
 
@@ -36,8 +31,7 @@
     boxrule=0.3pt,
     coltext=black,
     coltitle=white, 
-    family=\titlefont,
-    fonttitle=\titlefont\large
+    fonttitle=\large\bfseries
     }
     
 % Itemize Item
@@ -64,7 +58,7 @@
   \begin{frame}
     \vfill 
     \centering
-    {\color{myblue} \huge \titlefont \insertsectionhead}
+    {\color{myblue} \bfseries \huge \insertsectionhead}
     \vfill 
  
   \end{frame}
@@ -78,8 +72,8 @@
 \newcommand\E{\mathbb{E}} % Expectations Operator
 
 % Title Page
-\title{ \color{myblue} \titlefont \LARGE My Beamer Template}
-\date{\vfill \color{myblue} \titlefont A cool conference \\[4pt] June 1, 2018}	
+\title{ \color{myblue} \bfseries \LARGE My Beamer Template}
+\date{\vfill \color{myblue} \bfseries A cool conference \\[4pt] June 1, 2018}	
 
 \author[shortname]{
                    Author 1\inst{1},
