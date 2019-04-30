@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556625854 "beamer_template.tex" "beamer_template.pdf" "beamer_template" 1556625913
+["pdflatex"] 1556644164 "beamer_template.tex" "beamer_template.pdf" "beamer_template" 1556644165
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1480098668 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1480098698 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -198,16 +198,16 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "beamer_template.aux" 1556625855 2367 a60b0289730214c24bb8254368965f81 ""
-  "beamer_template.nav" 1556625855 1101 db910a49bbe70f0a855cf0ca4e113390 ""
-  "beamer_template.out" 1556625855 115 f5cd146922cbeae1d365dfa7fd555315 ""
-  "beamer_template.tex" 1556625881 3181 bd32387539b6c042beff5710915c747b ""
+  "beamer_template.aux" 1556644165 2367 a60b0289730214c24bb8254368965f81 ""
+  "beamer_template.nav" 1556644165 1101 db910a49bbe70f0a855cf0ca4e113390 ""
+  "beamer_template.out" 1556644165 115 f5cd146922cbeae1d365dfa7fd555315 ""
+  "beamer_template.tex" 1556644162 3214 1b2e9c84e543bf2f548ae0bf4249695c ""
   "fox.jpg" 1541562678 51856 3bda564e086ad4ddac5891aa5aed99fd ""
   (generated)
-  "beamer_template.nav"
+  "beamer_template.snm"
   "beamer_template.toc"
   "beamer_template.aux"
-  "beamer_template.pdf"
   "beamer_template.out"
+  "beamer_template.nav"
+  "beamer_template.pdf"
   "beamer_template.log"
-  "beamer_template.snm"
