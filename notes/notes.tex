@@ -58,6 +58,38 @@
 
 
 \begin{document}
-\maketitle
-Add your notes here. 
+
+
+Without loss of generality, consider a market in which two firms merge, $i=1$ and $i'=2$.
+Combining and rearranging the first order conditions for the merged firm's optimal employment choice at both plants (equation \ref{eq:merger_foc}) yields the following expression for wages:
+
+\begin{align}
+	\label{eq:diversion_dwp}
+w_{1j} & = \left(\frac{\varepsilon_{1j}}{\varepsilon_{1j} + 1}\right) \Bigg( z_{1j} - n_{2j} \frac{\partial w_{2j}}{\partial n_{1j}}\Bigg)
+\end{align}
+
+The diversion penalty term \(\frac{\partial w_{2j}}{\partial n_{1j}}\) can be thought of as a \emph{labor cannibalization tax}.\footnote{Formally, it is equivalent to \(T\) in the problem of a single firm that chooses \(n_{1j}\) to maximize \(z_{1j} n_{1j}) - (w_{1j}(n_{1j})+T) n_{1j}.\)} To see why, note that an increase in employment at firm \(1\)'s will increase competition on the labor market and \(2\) lead to an increase in wages at firm \(2\). Since there are \(n_{2j}\) workers employed at firm \(2\), the total increase in costs for firm \(2\) are equal to the \(n_{2j} \frac{\partial w_{2j}}{\partial n_{1j}}\). Before the merger, this does not affect firm \(1\)'s wage-setting decision. After the merger, the merged firm's objective is to maximize the combined profits of firms \(1\) and \(2\) and therefore, firm \(1\) will internalize the effect of its wage-setting decisions on firm \(2\)'s profits. 
+
+\paragraph{Gross downward wage pressure.}
+
+Next, we define the gross downward wage pressure index for firm \(1\). This index is equal to the diversion penalty divided by \(w_{1j}\), which can be though of as the tax rate associated with the cannibalization tax.  
+
+\begin{equation}
+	GDWPI_{1j} = \frac{n_{2j}}{w_{1j}} \frac{\partial w_{2j}}{\partial n_{1j}}.
+\end{equation} 
+
+One benefit of our structural model is that under the preferences in \citet{berger2022labor}, the \(GDWPI\) can be written in closed form as a function of simple labor market metrics. Under the assumption of Cournot competition, it is given by
+
+\begin{align}
+	GDWPI_{1j} = \varepsilon_{12j}\frac{w_{1} n_{1}}{w_{2} n_{2}} = \left(\frac{1}{\theta} - \frac{1}{\eta}\right)s_{2j} \frac{w_{1} n_{1}}{w_{2} n_{2}}.
+\end{align}
+
+where $\varepsilon_{2j}=\left[\frac{\partial w_{2j}}{\partial n_{1j}}\frac{n_{1j}}{w_{2j}}\right]^{-1}$ is the inverse of the cross-elasticity of wages at firm \(2\) with respect to employment at firm \(1\).
+
+This formula can be readily applied to any industry with appropriate estimates of  within- and across- market substitutability ($\eta$ and $\theta$), market shares ($s_{ij}$) and employment $(n_{ij})$. Our economy-wide estimates of $\eta$ and $\theta$ are a good benchmark for any analysis of diversion ratios.
+
+
+
+
+
 \end{document}

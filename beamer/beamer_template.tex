@@ -12,8 +12,9 @@
 % Fonts
 \usepackage{lmodern}
 
-% Template Setup
-\setbeamertemplate{frametitle}{\vskip+3pt \insertframetitle \vskip+3pt \usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle \vskip-1pt \noindent \centerline{\rule{\textwidth}{0.4pt}}}
+% Template Setup (Uncomment the second line to add subtitles)
+\setbeamertemplate{frametitle}{\insertframetitle \vskip-10pt \centerline{\rule{\textwidth}{0.4pt}}}
+%\setbeamertemplate{frametitle}{\vskip+3pt \insertframetitle \vskip+3pt \usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle \vskip-1pt \noindent \centerline{\rule{\textwidth}{0.4pt}}}
 \setbeamerfont{frametitle}{series=\bfseries, size=\Large}
 \setbeamerfont{framesubtitle}{series=\bfseries, size=\normalsize}
 \setbeamercolor{frametitle}{fg=myblue}
@@ -106,7 +107,7 @@
 \section{This is the first section} 
 
 
-\begin{frame}{This is a frame title}{This is a subtitle}
+\begin{frame}{This is a frame title}
     And this is some text
 \end{frame}
 
